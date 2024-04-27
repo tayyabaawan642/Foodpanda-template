@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Regular, sans-serif;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#navbar {
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 3px
+}
+
+ul li a {
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 10px;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.fa-solid {
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+#logo {
+    width: 100px;
+}
+
+#btn,
+button {
+    background-color: #FF2B85;
+    border: none;
+    padding: 7px;
+    font-size: 10px;
+    border-radius: 12px;
+    color: white;
+}
+
+#section2 {
+    margin: 80px 10% 80px 10%;
+
+}
+
+#section3,
+#section5 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+}
+
+#image1,
+#image5 {
+    width: 400px;
+    height: auto;
+}
+
+#section3-content,
+#section5-content {
+    width: 350px;
+
+}
+
+#section3-content-para,
+#section5-content-para {
+    font-size: 12px;
+}
+
+#section4,
+#section7 {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 10% 80px 10%;
+}
+
+#section4-content,
+#section7-content {
+    width: 350px;
+}
+
+#image2,
+#image7 {
+    width: 400px;
+    height: auto;
+    padding-left: 30px;
+}
+
+#section4-content-para,
+#section7-content-para {
+    font-size: 12px;
+}
+
+p {
+    color: gray;
+    font-size: 12px;
+
+}
+
+.section4-links {
+    width: 90px;
+}
+
+button {
+    background-color: #FF2B85;
+    border: none;
+    padding: 7px 15px 7px 15px;
+    font-size: 12px;
+    font-weight: bolder;
+    border-radius: 12px;
+    color: white;
+}
+
+#section6 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 80px;
+}
+
+#list-items {
+    display: flex;
+}
+
+#first-ul {
+    display: block;
+    margin-right: 100px;
+    font-size: 12px;
+
+}
+
+#second-ul {
+    display: block;
+    font-size: 12px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+
+}
+
+
+#last-line {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+
